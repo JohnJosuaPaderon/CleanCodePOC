@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F51DBBAF-99DA-45B9-A85B-A17D94E9F5BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0DACAE9B-82D2-49A6-96BC-ECAD3A7E2AD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodePOC", "src\CleanCodePOC\CleanCodePOC.csproj", "{10DDD9DC-CEE2-45F8-978E-58748E38B364}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodePOC.EfCore.SqlServer", "src\CleanCodePOC.EfCore.SqlServer\CleanCodePOC.EfCore.SqlServer.csproj", "{DF4388D2-1CD4-4CC5-A469-1AC427D29694}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodePOC.WebApi", "src\CleanCodePOC.WebApi\CleanCodePOC.WebApi.csproj", "{77CBD105-68E4-46C5-A75C-DF5819E21E80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanCodePOC.FluentValidation", "CleanCodePOC.FluentValidation\CleanCodePOC.FluentValidation.csproj", "{9E5832C0-A3C7-4547-B64F-686CBDF333CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{10DDD9DC-CEE2-45F8-978E-58748E38B364}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10DDD9DC-CEE2-45F8-978E-58748E38B364}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10DDD9DC-CEE2-45F8-978E-58748E38B364}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10DDD9DC-CEE2-45F8-978E-58748E38B364}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4388D2-1CD4-4CC5-A469-1AC427D29694}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4388D2-1CD4-4CC5-A469-1AC427D29694}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4388D2-1CD4-4CC5-A469-1AC427D29694}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4388D2-1CD4-4CC5-A469-1AC427D29694}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77CBD105-68E4-46C5-A75C-DF5819E21E80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77CBD105-68E4-46C5-A75C-DF5819E21E80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77CBD105-68E4-46C5-A75C-DF5819E21E80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77CBD105-68E4-46C5-A75C-DF5819E21E80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E5832C0-A3C7-4547-B64F-686CBDF333CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5832C0-A3C7-4547-B64F-686CBDF333CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5832C0-A3C7-4547-B64F-686CBDF333CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5832C0-A3C7-4547-B64F-686CBDF333CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{10DDD9DC-CEE2-45F8-978E-58748E38B364} = {F51DBBAF-99DA-45B9-A85B-A17D94E9F5BA}
+		{DF4388D2-1CD4-4CC5-A469-1AC427D29694} = {F51DBBAF-99DA-45B9-A85B-A17D94E9F5BA}
+		{77CBD105-68E4-46C5-A75C-DF5819E21E80} = {F51DBBAF-99DA-45B9-A85B-A17D94E9F5BA}
+		{9E5832C0-A3C7-4547-B64F-686CBDF333CF} = {F51DBBAF-99DA-45B9-A85B-A17D94E9F5BA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {651660D7-98FB-4A8E-8F34-E7F5053E5839}
+	EndGlobalSection
+EndGlobal
